@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-cont .head{
+    letter-spacing: 4px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+}
+.bg-cont{
+    height: 100vh;
+    background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+}
+.main-cont{
+    padding-top: 100px;
+}
+.scores{
+    margin-bottom: 50px;
+}
+.scores p{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    
+}
+.scores .para-2{
+    margin-top: -15px;
+}
+.cont-back{
+    background-color: white;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.cont-back .icons .fa-hand-rock{
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+}
+.cont-back .icons .fa-hand-paper{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+}
+.cont-back .icons .fa-hand-scissors{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+}
+
+.scores,.details{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+@media (max-width:450px) {
+    .cont-back{
+        background-color: white;
+        width: 65%;
+        border: 1px solid white;
+        border-radius: 15px;
+    }
+    .main-cont{
+        padding-top: 50px;
+    }
+    .bg-cont{
+        height: 100%;
+        background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+    }
+    .cont-back .icons .fa-hand-rock{
+        font-size: 40px;
+        text-decoration: none;
+        padding: 30px;
+        border-radius: 50%;
+        background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+    }
+    .cont-back .icons .fa-hand-paper{
+        font-size: 40px;
+        padding: 30px;
+        border-radius: 50%;
+        background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+    }
+    .cont-back .icons .fa-hand-scissors{
+        font-size: 40px;
+        padding: 30px;
+        border-radius: 50%;
+        background: linear-gradient(135deg,#ffcf1b,#ff8b1b);
+    }
+    .cont-back .icons{
+        margin: auto;
+    }
+}

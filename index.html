@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200&family=Orbitron&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- Start Main Section -->
+
+    <div class="container-fluid bg-cont">
+        <h2 class="text-center head pt-5">Rock Paper Scissor</h2>
+        <div class="container main-cont pb-5">
+                <div class="cont-back p-5 m-auto">
+                    <div class="scores text-right">
+                        <p>Computer : 
+                            <span id="computer_score">0</span>
+                        </p>
+                        <p class="para-2">You : 
+                            <span id="user_score">0</span>
+                        </p>
+                    </div>
+                   <div class="icons text-center">
+                    <button class="btn bg-white" onclick="checker('rock')"><i class="far fa-hand-rock"></i></button>
+
+                    <button class="btn bg-white" onclick="checker('paper')"><i class="far fa-hand-paper "></i></button>
+                    <button class="btn bg-white" onclick="checker('scissor')"><i class="far fa-hand-scissors "></i></button>
+                   </div>
+                   <div class="details mt-5">
+                       <p id="user_choice" class="text-center mb-1"></p>
+                       <p id="comp_choice" class="text-center"></p>
+                       <p id="result" class="text-center"></p>
+                   </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- End Main Section -->
+
+    <!-- Bootstrap JS Link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
